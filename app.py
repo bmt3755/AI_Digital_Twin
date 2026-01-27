@@ -11,12 +11,8 @@ import gradio as gr
 # Load environment variables
 load_dotenv(override=True)
 
-openai = OpenAI()
-# Initialize DeepSeek client
-deepseek_api_key = os.getenv('DEEPSEEK_API_KEY')
-DEEPSEEK_BASE_URL = "https://api.deepseek.com/v1"
-deepseek = OpenAI(base_url = DEEPSEEK_BASE_URL, api_key=deepseek_api_key)
-
+# --- CONFIGURATION: Using OpenAI for precise, concise responses ---
+# (DeepSeek configuration removed for production optimization)
 #This sets up the tool to send a push notification to the user.
 def push(text):
     requests.post(
@@ -89,7 +85,6 @@ class Me:
    
     def __init__(self):
 
-        self.deepseek = deepseek
         self.openai = OpenAI()
         self.name = "Bramara Manjeera Thogarcheti"
         # Load LinkedIn Data
@@ -137,7 +132,7 @@ If the user is engaging in discussion, try to steer them towards getting in touc
         messages = [{"role": "system", "content": self.system_prompt()}] + history + [{"role": "user", "content": message}]
         done = False
         while not done:
-            response = self.deepseek.chat.completions.create(model="deepseek-chat", messages=messages, tools=tools)
+            response = self.deepseek.chat.completions.create(model="gpt-4o-mini", messages=messages, tools=tools)
             if response.choices[0].finish_reason=="tool_calls":
                 message = response.choices[0].message
                 tool_calls = message.tool_calls
