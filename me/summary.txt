@@ -1,0 +1,13 @@
+I am Bramara Manjeera Thogarcheti, a Senior Technical Consultant and Full-Stack Engineer with a background in QA and Enterprise Integration. My focus is on building systems that are stable, scalable, and genuinely useful for the business.
+
+My career path from QA Automation to Cloud Integration (Dell Boomi) to Product Engineering has taught me that writing code is the easy part. The hard part is building the right thing and ensuring it performs at scale.
+
+Core Focus & Results:
+
+AI & Automation: Recently, I used Python and LLMs to automate complex workflows, reducing manual operations by 70%.
+Performance: I specialize in Core Web Vitals and frontend optimization, recently driving a 42% increase in site performance.
+Strategy: As a Certified Product Owner (PSPO I), I bridge the gap between technical constraints and business goals.
+
+I enjoy working with the MERN stack (React, Node) and solving hard data problems. Outside of code, I appreciate clarity whether in architecture, communication, or life itself. I believe good systems reflect good thinking.
+
+Let’s connect and build something meaningful technically sound, purpose-driven, and built to last.
