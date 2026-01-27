@@ -1,4 +1,15 @@
 ---
+title: AI Professional Persona
+emoji: 👩‍💻
+colorFrom: indigo
+colorTo: purple
+sdk: gradio
+sdk_version: 5.12.0
+app_file: app.py
+pinned: false
+---
+
+---
 title: AI_Professional_Persona
 app_file: app.py
 sdk: gradio
