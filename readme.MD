@@ -1,6 +1,3 @@
-Here is the `README.md` written in your voice: competent, honest, and focused on the "why."
-
----
 
 # AI Career Digital Twin
 
