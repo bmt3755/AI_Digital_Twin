@@ -88,12 +88,8 @@ class Me:
         self.openai = OpenAI()
         self.name = "Bramara Manjeera Thogarcheti"
         # Load LinkedIn Data
-        reader = PdfReader("me/linkedin.pdf")
-        self.linkedin = ""
-        for page in reader.pages:
-            text = page.extract_text()
-            if text:
-                self.linkedin += text
+        with open("me/linkedin.txt", "r", encoding="utf-8") as f:
+            self.linkedin = f.read()
                 # Load Professional Summary
         with open("me/summary.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
