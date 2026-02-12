@@ -40,7 +40,7 @@ Here is why I made that switch:
 
 The architecture is a straightforward **RAG (Retrieval-Augmented Generation)** pipeline with function calling capabilities.
 
-1. **Ingestion:** The app reads my `linkedin.pdf` and `summary.txt` using `pypdf`.
+1. **Ingestion:** The app reads my `linkedin.txt` and `summary.txt`
 2. **Context Injection:** It injects that text directly into the system prompt. I chose this over a vector database for now because the dataset (my resume) is small enough to fit in the context window, which keeps the architecture simple and the retrieval 100% accurate.
 3. **Tool Execution:** I gave the agent two specific tools:
 * `record_unknown_question`: If the agent doesn't know the answer, it logs the question so I can update the context later.

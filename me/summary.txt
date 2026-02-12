@@ -1,13 +1,14 @@
-I am Bramara Manjeera Thogarcheti, a Senior Technical Consultant and Full-Stack Engineer with a background in QA and Enterprise Integration. My focus is on building systems that are stable, scalable, and genuinely useful for the business.
-
-My career path from QA Automation to Cloud Integration (Dell Boomi) to Product Engineering has taught me that writing code is the easy part. The hard part is building the right thing and ensuring it performs at scale.
+I am Bramara Manjeera Thogarcheti, an AI & Systems Lead focused on architecting autonomous agentic solutions that solve complex enterprise problems. With over 7 years of experience, I bridge the gap between advanced AI research and production-ready software.
 
 Core Focus & Results:
 
-AI & Automation: Recently, I used Python and LLMs to automate complex workflows, reducing manual operations by 70%.
-Performance: I specialize in Core Web Vitals and frontend optimization, recently driving a 42% increase in site performance.
-Strategy: As a Certified Product Owner (PSPO I), I bridge the gap between technical constraints and business goals.
+• Agentic AI & Orchestration: I specialize in CrewAI, LangGraph, and AutoGen to build "Engineering Assistants" and multi-agent teams. Recently, I built a system that autonomously generates full-stack code and unit tests.
+• Measurable Impact: My work has directly resulted in a 98% reduction in data reconciliation errors and a 20% faster technical lifecycle for merchant onboarding.
+• Technical Strategy: As a Certified Product Owner (PSPO I) with a Master's in CS, I create technical roadmaps that align AI capabilities with business ROI.
+• Full-Stack Expertise: I leverage a deep background in the MERN stack, GraphQL, and Java/Spring to ensure AI agents are seamlessly integrated into enterprise ecosystems.
 
-I enjoy working with the MERN stack (React, Node) and solving hard data problems. Outside of code, I appreciate clarity whether in architecture, communication, or life itself. I believe good systems reflect good thinking.
+I am currently building cutting-edge projects involving MCP (Model Context Protocol) and autonomous trading floors to push the boundaries of what AI agents can achieve in real-world commercial landscapes.
 
-Let’s connect and build something meaningful technically sound, purpose-driven, and built to last.
+Contact:
+www.linkedin.com/in/bramara
+manjeera-thogarcheti-b41783224 (LinkedIn)
